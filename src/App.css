@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* General Page Styling */
+body {
+  background-color: #E8F5E9; /* Soft herbal green */
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Header */
+.app-header {
+  text-align: center;
+  color: #2E7D32; /* Deep herbal green */
+  font-size: 28px;
+  padding: 20px;
+  font-weight: bold;
+  background: linear-gradient(to right, #A5D6A7, #81C784);
+  border-bottom: 5px solid #388E3C;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Herbal Themed Container */
+.app-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #A5D6A7;
+  background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png'); /* Subtle organic texture */
+}
+
+/* Buttons with Herbal Theme */
+button {
+  background-color: #4CAF50; /* Herbal green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #388E3C; /* Darker green */
+}
+
+/* Input Fields */
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #A5D6A7;
+  border-radius: 5px;
+  background: #F1F8E9; /* Light herbal green */
+  color: #2E7D32;
+  font-size: 16px;
+  transition: border 0.3s ease-in-out;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border: 2px solid #388E3C;
+  background: #DCEDC8; /* Light herbal green */
+}
+
+/* List Styling */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #F1F8E9;
+  border: 1px solid #A5D6A7;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #2E7D32;
+  text-align: center;
+}
+
+li:hover {
+  background-color: #DCEDC8;
+  cursor: pointer;
+}
+
+/* Footer Styling */
+.app-footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  background: linear-gradient(to right, #A5D6A7, #81C784);
+  color: white;
+  font-weight: bold;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+

@@ -1,0 +1,114 @@
+.plant-details-container {
+    text-align: center;
+    padding: 30px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    margin: 30px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.plant-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2e7d32;
+}
+
+.scientific-name {
+    font-size: 1.5rem;
+    color: #4caf50;
+    font-style: italic;
+}
+
+.plant-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.plant-description {
+    font-size: 1.2rem;
+    margin: 15px;
+}
+
+.diseases-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2e7d32;
+}
+
+.diseases-list {
+    list-style: none;
+    padding: 0;
+}
+
+.diseases-list li {
+    font-size: 1.1rem;
+    padding: 5px;
+}
+.plant-details-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .plant-title {
+    color: #2d6a4f;
+    text-align: center;
+  }
+  
+  .scientific-name {
+    color: #555;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  .plant-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+  }
+  
+  .plant-description {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  h3 {
+    margin-top: 15px;
+    color: #1b4332;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+
+  .back-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #2e7d32;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #1b5e20;
+    transform: scale(1.05);
+}
+
